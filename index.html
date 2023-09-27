@@ -3,13 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <title>Danyal Portfolio</title>
   </head>
+
   <body>
-    <h1>heelo danial</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
-      est!
-    </p>
+    <!-- top navbar -->
+    <nav class="nav_top" id="top">
+      <div class="logo">
+        <a href="#head"><img src="./images/logo.png" alt="logo" /> </a>
+      </div>
+      <div class="navbar">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="header" id="head">
+      <div class="main">
+        <h1 class="name"><span>D</span>any M.<span>A</span></h1>
+        <p class="info">Photographer, Web Developer <br />UI/UX Designer</p>
+        <div class="bgimg">
+          <img src="./images/my_photo.jpg" alt="danyal photo" />
+        </div>
+        <a href="#">Download Resume</a
+        ><i class="fa-solid fa-cloud-arrow-down"></i>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <h2>My Portfolio</h2>
+      <div class="port_main">
+        <div class="item1 item">
+          <img src="./images/item1.jpg" alt="" />
+        </div>
+        <div class="item2 item">
+          <img src="./images/item2.jpg" alt="" />
+        </div>
+        <div class="item3 item">
+          <img src="./images/item3.jpg" alt="" />
+        </div>
+        <div class="item4 item">
+          <img src="./images/item4.jpg" alt="" />
+        </div>
+        <div class="item5 item">
+          <img src="./images/item5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="me">
+        <h2>About me</h2>
+        <p>
+          Hi, I'm Danyal,
+          <br />I'm currently traning as a web developer by DCI<br />Previously,
+          I took a digital photography and interior design course in Iran.
+          <br />
+          I also have the experience of carpentry and establishment of a
+          resturant in my resume.
+          <br />
+        </p>
+      </div>
+      <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skills_item">
+          <img src="./images/html-5.png" alt="html logo" />
+          <img src="./images/css-3.png" alt="css logo" />
+          <img src="./images/bootstrap-5.png" alt="bootstrap logo" />
+          <img src="./images/Figma.png" alt="fogma logo" />
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact_container">
+        <h2>Contact Me</h2>
+        <p>Itzehoe, Deutschland</p>
+        <p>Phone: +49 873 645</p>
+        <p>Email:DanyDci@gmail.com</p>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7015.712902523734!2d9.505158630021329!3d53.9338664932124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1695853680147!5m2!1sen!2sde"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <form action="">
+        <h3>Thank you for communicating and sharing your opinion</h3>
+        <div class="contact_form">
+          <input type="text" name="name" value="Name" />
+          <input type="email" name="email" value="Email" />
+          <input type="text" name="subject" value="Subject" />
+          <input type="text" name="message" value="Message" />
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-git"></i></a>
+      <a href="#top">push me up</a>
+    </footer>
   </body>
 </html>
