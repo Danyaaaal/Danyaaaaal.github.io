@@ -22,14 +22,17 @@
 
   <body>
     <!-- top navbar -->
-    <nav class="nav_top" id="top">
-      <div class="logo">
-        <a href="#head"><img src="./images/logo.png" alt="logo" /> </a>
-      </div>
-      <div class="navbar">
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+    <nav class="top_one">
+      <div class="nav_top" id="top">
+        <div class="logo">
+          <a href="#head"><img src="./images/logo.png" alt="logo" /> </a>
+        </div>
+
+        <div class="navbar">
+          <a href="#portfolio">Portfolio</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
     </nav>
     <section class="header" id="head">
@@ -39,88 +42,134 @@
         <div class="bgimg">
           <img src="./images/my_photo.jpg" alt="danyal photo" />
         </div>
-        <a href="#">Download Resume</a
-        ><i class="fa-solid fa-cloud-arrow-down"></i>
       </div>
     </section>
     <section class="portfolio" id="portfolio">
-      <h2>My Portfolio</h2>
+      <h2 class="portfolio_h2">My Portfolio</h2>
       <div class="port_main">
         <div class="item1 item">
-          <img src="./images/item1.jpg" alt="" />
+          <img src="./images/item1.jpg" alt="the well" />
         </div>
         <div class="item2 item">
-          <img src="./images/item2.jpg" alt="" />
+          <img src="./images/item2.jpg" alt="jumping with a bike" />
         </div>
         <div class="item3 item">
-          <img src="./images/item3.jpg" alt="" />
+          <img src="./images/item3.jpg" alt="dog on the ground " />
         </div>
         <div class="item4 item">
-          <img src="./images/item4.jpg" alt="" />
+          <img src="./images/item4.jpg" alt="boy on the bench" />
         </div>
         <div class="item5 item">
-          <img src="./images/item5.jpg" alt="" />
+          <img src="./images/item5.jpg" alt="lock with red heart" />
+        </div>
+        <div class="item6 item">
+          <img src="./images/item6.jpg" alt="boy with hat" />
+        </div>
+        <div class="item7 item">
+          <img src="./images/item7.jpg" alt="white swan" />
+        </div>
+        <div class="item8 item">
+          <img src="./images/item8.jpg" alt="sheep in night" />
         </div>
       </div>
     </section>
     <section class="about" id="about">
-      <div class="me">
-        <h2>About me</h2>
-        <p>
-          Hi, I'm Danyal,
-          <br />I'm currently traning as a web developer by DCI<br />Previously,
-          I took a digital photography and interior design course in Iran.
-          <br />
-          I also have the experience of carpentry and establishment of a
-          resturant in my resume.
-          <br />
-        </p>
+      <h2 class="about_h2">About me</h2>
+      <p class="me">
+        Hi, I'm Danyal,
+        <br />I'm currently traning as a web developer by DCI<br />Previously, I
+        took a digital photography and interior design course in Iran.
+        <br />
+        I also have the experience of carpentry and establishment of a resturant
+        in my resume.
+      </p>
+      <div class="download_bottom">
+        <a href="#">Download Resume</a
+        ><i class="fa-solid fa-cloud-arrow-down"></i>
       </div>
+      <h2 class="skill_h2">My Skills</h2>
       <div class="skills">
-        <h2>My Skills</h2>
         <div class="skills_item">
-          <img src="./images/html-5.png" alt="html logo" />
-          <img src="./images/css-3.png" alt="css logo" />
-          <img src="./images/bootstrap-5.png" alt="bootstrap logo" />
-          <img src="./images/Figma.png" alt="fogma logo" />
+          <img src="./images/html-5.png" class="icon-logo" alt="html logo" />
+          <img src="./images/css-3.png" class="icon-logo" alt="css logo" />
+          <img
+            src="./images/bootstrap-5.png"
+            class="icon-logo"
+            alt="bootstrap logo"
+          />
+          <img src="./images/Figma.png" class="icon-logo" alt="fogma logo" />
         </div>
       </div>
     </section>
     <section class="contact" id="contact">
+      <h2 class="contact_h2">Contact Me</h2>
       <div class="contact_container">
-        <h2>Contact Me</h2>
-        <p>Itzehoe, Deutschland</p>
-        <p>Phone: +49 873 645</p>
-        <p>Email:DanyDci@gmail.com</p>
+        <p>
+          <i class="fa-solid fa-map-pin" style="color: #ff0000"></i> Itzehoe,
+          Deutschland
+        </p>
+        <p>
+          <i class="fa-solid fa-phone" style="color: #ff0000"></i> Phone: +49
+          873 645
+        </p>
+        <p>
+          <i class="fa-solid fa-at" style="color: #ff0000"></i> Email:
+          DanyDci@gmail.com
+        </p>
       </div>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7015.712902523734!2d9.505158630021329!3d53.9338664932124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1695853680147!5m2!1sen!2sde"
-          width="400"
-          height="300"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-      <form action="">
-        <h3>Thank you for communicating and sharing your opinion</h3>
+
+      <form action="" class="form">
+        <h2 class="form_h2">I'm honored to hear your opinion</h2>
         <div class="contact_form">
-          <input type="text" name="name" value="Name" />
-          <input type="email" name="email" value="Email" />
-          <input type="text" name="subject" value="Subject" />
-          <input type="text" name="message" value="Message" />
-          <input type="submit" value="submit" />
+          <p>
+            <label for="text">First / Last Name:</label>
+            <input type="text" placeholder="name" name="name" />
+          </p>
+          <p>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="email" name="email" />
+          </p>
+          <p>
+            <label for="text">Subject of your opinion:</label>
+            <input type="text" placeholder="subject" name="subject" />
+          </p>
+          <p>
+            <label for="text">Message:</label>
+            <input type="text" placeholder="message" name="message" />
+          </p>
+          <p>
+            <input type="submit" value="submit" />
+          </p>
+        </div>
+        <div class="push_top">
+          <a href="#top">Back to Home</a>
         </div>
       </form>
     </section>
     <footer class="footer">
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-      <a href="#"><i class="fa-brands fa-github"></i></a>
-      <a href="#"><i class="fa-brands fa-git"></i></a>
-      <a href="#top">push me up</a>
+      <div class="footer_container">
+        <div class="social_contact">
+          <a
+            href="https://www.linkedin.com/in/danyal-alikhany-0357891bb/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin" style="color: #2e7bff"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa-brands fa-facebook" style="color: #0043b8"></i
+          ></a>
+          <a href="https://github.com/Danyaaaal" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://wa.me/4917655084033" target="_blank"
+            ><i class="fa-brands fa-whatsapp" style="color: #1fff0f"></i
+          ></a>
+        </div>
+
+        <div class="copyright">
+          © 2023 Design & Photo by <span> Dany M.A</span> <br />- All rights
+          reserved.
+        </div>
+      </div>
     </footer>
   </body>
 </html>
