@@ -388,7 +388,12 @@ input[type="submit"] {
   .nav_top {
     justify-content: space-between;
   }
+  .about{
+    display: flex;
+    align-items: center;
+  }
   .download_bottom {
+    text-align: center;
     width: 150px;
     font-size: 1rem;
   }
@@ -407,6 +412,9 @@ input[type="submit"] {
   }
   .me {
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
   }
   .contact_container {
     font-size: 1.5rem;
